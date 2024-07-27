@@ -1,0 +1,113 @@
+.body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+}
+
+.tela {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: line;
+    align-items: center;
+    justify-content: center;
+}
+
+.semaforo {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.borda {
+    padding: 10px;
+    background-color: #000;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, rgb(211, 211, 211, 0.5) 20%, rgb(211, 211, 211, 0.3) 60%, rgb(211, 211, 211, 0.2));
+}
+
+.faixa {
+    padding: 8px;
+    background-color: #fb0;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, rgb(211, 211, 211, 0.5) 20%, rgb(211, 211, 211, 0.3) 60%, rgb(211, 211, 211, 0.2));
+}
+
+.container {
+    width: 120px;
+    background-color: #000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-image: linear-gradient(to bottom right, rgb(211, 211, 211, 0.5) 20%, rgb(211, 211, 211, 0.3) 60%, rgb(211, 211, 211, 0.2));
+}
+
+.luz_vermelha1,
+.luz_vermelha2 {
+    width: 50px;
+    height: 50px;
+    background-color: #300;
+    border: 2px solid #555;
+    border-radius: 50px;
+    margin: 5px;
+    background-image: linear-gradient(to bottom right, rgb(211, 211, 211, 0.5) 20%, rgb(211, 211, 211, 0.3) 60%, rgb(211, 211, 211, 0.2));
+}
+
+.luz_vermelha_ativa {
+    border: 2px solid #f00;
+    background: red;
+    box-shadow: 0 0 15px 3px #f00;
+    background-image: linear-gradient(to bottom right, rgb(211, 211, 211, 0.5) 20%, rgb(211, 211, 211, 0.3) 60%, rgb(211, 211, 211, 0.2));
+}
+
+.luz_amarela {
+    width: 50px;
+    height: 50px;
+    background-color: #330;
+    border: 2px solid #555;
+    border-radius: 50px;
+    margin: 5px 0px 5px 0px;
+    background-image: linear-gradient(to bottom right, rgb(211, 211, 211, 0.5) 20%, rgb(211, 211, 211, 0.3) 60%, rgb(211, 211, 211, 0.2));
+}
+
+.luz_amarela_ativa {
+    border: 2px solid #ff0;
+    background: #ff0;
+    box-shadow: 0 0 15px 3px #ff0;
+    background-image: linear-gradient(to bottom right, rgb(211, 211, 211, 0.5) 20%, rgb(211, 211, 211, 0.3) 60%, rgb(211, 211, 211, 0.2));
+}
+
+.luz_verde {
+    width: 50px;
+    height: 50px;
+    background-color: #030;
+    border: 2px solid #555;
+    border-radius: 50px;
+    margin: 5px;
+    background-image: linear-gradient(to bottom right, rgb(211, 211, 211, 0.5) 20%, rgb(211, 211, 211, 0.3) 60%, rgb(211, 211, 211, 0.2));
+}
+
+.luz_verde_ativa {
+    border: 2px solid #0f0;
+    background: #0f0;
+    box-shadow: 0 0 15px 3px #0f0;
+    background-image: linear-gradient(to bottom right, rgb(211, 211, 211, 0.5) 20%, rgb(211, 211, 211, 0.3) 60%, rgb(211, 211, 211, 0.2));
+}
+
+#pedestre {
+    margin: 15px;
+}
+
+.luz_verde_pedestre {
+    width: 50px;
+    height: 50px;
+    background-color: #030;
+    border: 2px solid #555;
+    border-radius: 50px;
+    margin: 5px;
+    background-image: linear-gradient(to bottom right, rgb(211, 211, 211, 0.5) 20%, rgb(211, 211, 211, 0.3) 60%, rgb(211, 211, 211, 0.2));
+}
